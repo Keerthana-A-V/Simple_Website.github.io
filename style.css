@@ -1,0 +1,236 @@
+*{
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head{
+    margin-left: 30%;
+    margin-top: -20px;
+
+}
+.head1:hover{
+    color:  rgb(250, 142, 0);
+    font-size:100%;
+    text-transform:capitalize;
+    text-decoration: burlywood underline;
+
+}
+header{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+a{
+    color:rgb(255, 255, 205);
+    text-decoration: none;
+    margin-left: 3%;
+    transition: ease-in;
+}
+.head2{
+    font-size: 140%;
+    color: burlywood;
+}
+.bg{
+   /* background-image: url('https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1585935507/1585935505.jpg');*/
+    background-repeat: no-repeat;
+   /* background-image: url('https://thumbs.dreamstime.com/z/mother-work-home-working-mom-happy-busy-freelancer-holding-baby-flat-woman-sitting-computer-desk-talk-phone-swanky-vector-200768834.jpg');*/
+   background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/200330095037-work-from-home-animation-full-169.jpg');
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+  }
+  .sticky .head2{
+      color: rgb(250, 142, 0);
+  }
+  .sticky .head{
+      color: rgb(255, 255, 0);
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .capt{
+      color:rgb(77, 97, 209);
+      font-size: 400%;
+      padding-top:5%;
+      padding-left: 10%;
+      text-shadow: 5px 5px 10px rgb(169, 177, 221);
+      font-weight: bolder;
+     
+    }
+    .capt1{
+        color: rgb(22, 22, 48);
+        font-size: 180%;
+        padding-top:-5px;
+        padding-left: 10%;
+        font-family:cursive;
+        font-weight:lighter;
+    }
+    .btn{
+        margin-left: 10%;
+        background-color: rgb(240, 240, 137);
+        border: rgb(8, 8, 8) solid;
+        height: 50px;
+        width:15%;
+        border-radius: 30px;
+    }
+    .btn1{
+        margin-left: 3%;
+        background-color: rgb(255, 255, 255);
+        border: rgb(78, 67, 236) solid 2px;
+        height: 50px;
+        width:15%;
+        border-radius: 30px;
+
+    }
+ .btn:hover,.btn1:hover{
+       color: white;
+       background-color: turquoise;
+   }
+   .flo{
+    width: 25%;
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgb(24, 23, 23);
+    margin-top: -20%;
+    margin-left: 5%;
+    background-color: white;
+   }
+   .img1{
+       margin-left: 45%;
+       padding-top: 4%;
+   }
+   .h2{
+       text-align: center;
+   }
+   .p{
+       margin-right: 10%;
+       margin-left: 10%;
+       color: gray;
+   }
+   .img2{
+       width:50%;
+   }
+   .flo1{
+       display: inline-block;
+       width: 20%;
+       margin-left: 4%;
+
+   }
+   .trust ,.img4, .foot{
+       display: inline-block;
+   }
+   .trust1,.n1{
+       margin-left: 20%;
+   }
+   iframe{
+       margin-top: 10%;
+   }
+
+   .news{
+       display: inline;
+   }
+   .newsletter{
+       width: 70%;
+       margin-left: 15%;
+       margin-right: 15%;
+       background-color: aqua;
+       height: 150px;
+padding-top: 4px;  
+position: relative;
+
+}
+.inp{
+    height: 30px;
+    width: 40%;
+    border: solid black 1px;
+    margin-left: 30%;
+    border-radius: 30px;
+
+}
+.inp ,placeholder{
+    text-align: center;
+
+}
+.inp:focus{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px aqua;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(79, 79, 224);
+}
+.foot{
+    padding: 4%;
+}
+.foot1{
+    margin-bottom: -10%;
+}
+h1{
+    text-decoration:underline ;
+}
+.img5{
+    height: 100px;width: 100%;
+    padding:5% 0 10% 0 ;
+
+}
+.flo1 h2{
+    color: rgb(79, 79, 224);
+    text-decoration: overline;
+}
+.flo1 p{
+    margin-left: 5%;
+    padding:5% 0 5% 0 ;
+}
+   
+@media screen and (max-width:900px){
+.flo{
+    display: inline-block;
+    margin:5% 30% 5% 30% ;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 4%;
+    width: 50%;
+    background-color: beige;
+}
+
+.btn{
+    width: fit-content;
+}
+.btn1{
+    width: fit-content;
+}
+.bg{
+background-size: cover;}
+.flo1{
+    display: inline;
+}
+.adj1{
+    margin-left: 25%;
+}
+.newsletter{
+   width: 200%;
+   margin-left: 0;
+}
+.newsletter h1{
+    font-size: larger;
+}
+.bb{
+    width: 200%;
+    height: min-content;
+}
+.res ,input{
+width: 200%;
+}
+.footer{
+    width: 200%;
+}
+}
